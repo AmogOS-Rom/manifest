@@ -12,8 +12,17 @@
 
   <remote  name="aex"
            fetch="https://github.com/AospExtended"
+<<<<<<< HEAD
            revision="refs/heads/12.1.x" />
 
+=======
+           revision="refs/heads/12.x" />
+  
+  <remote  name="sus"
+           fetch="https://github.com/AmogOS-Rom"
+           revision="refs/heads/sus" />
+  
+>>>>>>> 6e908d9 (Add SUS to the manifest)
   <remote  name="aex-lab"
            fetch="https://gitlab.com/AospExtended"
            revision="refs/heads/12.1.x" />
