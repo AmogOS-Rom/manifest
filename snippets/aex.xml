@@ -13,7 +13,11 @@
   <remote  name="aex"
            fetch="https://github.com/AospExtended"
            revision="refs/heads/12.x" />
-
+  
+  <remote  name="sus"
+           fetch="https://github.com/AmogOS-Rom"
+           revision="refs/heads/sus" />
+  
   <remote  name="aex-lab"
            fetch="https://gitlab.com/AospExtended"
            revision="refs/heads/12.x" />
