@@ -12,4 +12,7 @@
   
   <remove-project name="platform_packages_apps_Extensions" />
   <project path="packages/apps/Extensions" name="platform_packages_apps_Extensions" remote="sus" />
+
+  <remove-project name="manifest" />
+  <project path="manifest" name="manifest" remote="sus" />
 </manifest>
