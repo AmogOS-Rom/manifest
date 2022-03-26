@@ -1,7 +1,7 @@
 <p align="center">
 </p>
 
-Amog OS SUS Release
+Amog OS SUS Release (This rom is not yet done, don build it)
 ===========
 AmogOS is the most SUS rom ever made, This is a fork from AEX.
 
