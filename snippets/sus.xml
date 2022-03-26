@@ -15,4 +15,6 @@
 
   <remove-project name="manifest" />
   <project path="manifest" name="manifest" remote="sus" />
+
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="sus" />
 </manifest>
