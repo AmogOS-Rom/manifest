@@ -18,6 +18,7 @@ Credits
 * [**Pure Nexus**](https://github.com/PureNexusProject)
 * [**OmniROM**](https://github.com/omnirom/)
 * [**AOSPA**](https://github.com/aospa/)
+* [**Kosp**](https://github.com/AOSP-Krypton)
 * [**BlissRoms**](https://github.com/BlissRoms)
 
 How to Build?
