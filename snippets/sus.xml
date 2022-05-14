@@ -12,7 +12,7 @@
   <remove-project name="platform_vendor_aosp" />
   <project path="vendor/aosp" name="platform_vendor_aosp" remote="susL" />
   
-  <project path="vendor/lawnchair" name="vendor_lawnchair" remote="susL" />
+  <project path="vendor/lawnchair" name="platform_vendor_lawnchair" remote="susL" />
   
   <!-- Packages -->
   <remove-project name="platform_packages_apps_Extensions" />
