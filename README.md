@@ -27,12 +27,12 @@ To initialize your local repository using the Amog-OS trees, use a
 command like this:
 
 ```bash
-repo init -u git://github.com/AmogOS-Rom/manifest.git -b sus
+repo init -u git://github.com/AmogOS-Rom/manifest.git -b susL
 ```
 To initialize a shallow clone, which will save even more space & time, use a command like this:
 
 ```bash
-repo init --depth=1 -u git://github.com/AmogOS-Rom/manifest.git -b sus
+repo init --depth=1 -u git://github.com/AmogOS-Rom/manifest.git -b susL
 ```
 
 Then to sync up:
