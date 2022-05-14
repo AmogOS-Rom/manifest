@@ -3,7 +3,7 @@
 
 Amog OS SUSL Release
 ===========
-AmogOS is the most SUS rom ever made, This is a fork from AEX.
+AmogOS is the most SUS rom ever made, This is a fork from [**AEX**](https://github.com/aospextended).
 
 Credits
 -------
