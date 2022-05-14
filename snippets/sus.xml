@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="sus"
+  <remote  name="susL"
            fetch="https://github.com/AmogOS-Rom"
            revision="refs/heads/susL" />
+  
+  <remove-project name="manifest" />
+  <project path="manifest" name="manifest" remote="susL" />
+  
+  
+  <!-- Vendor -->
+  <remove-project name="platform_vendor_aosp" />
+  <project path="vendor/aosp" name="platform_vendor_aosp" remote="susL" />
+  
+  <project path="vendor/lawnchair" name="vendor_lawnchair" remote="susL" />
+  
+  <!-- Packages -->
+  <remove-project name="platform_packages_apps_Extensions" />
+  <project path="packages/apps/Extensions" name="platform_packages_apps_Extensions" remote="susL" />
 
   <remove-project name="platform_packages_apps_Settings" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="susL" />
   
-  <remove-project name="platform_vendor_aosp" />
-  <project path="vendor/aosp" name="platform_vendor_aosp" remote="susL" />
-  
-  <remove-project name="platform_packages_apps_Extensions" />
-  <project path="packages/apps/Extensions" name="platform_packages_apps_Extensions" remote="susL" />
-
-  <remove-project name="manifest" />
-  <project path="manifest" name="manifest" remote="susL" />
-
 </manifest>
